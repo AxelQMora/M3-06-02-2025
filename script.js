@@ -42,4 +42,23 @@ let operacion1 = 10 + 5 * 2
 let operacion2 = (10 + 5) * 2 
 console.log(operacion1, operacion2)
 
+//Operadores de comparación
+
+let mayor = 7 > 5 
+let menor = 3 < 1
+let dif = 1 != 0 
+let igual = 1 == "1"
+let difest = 1 !== "1"
+let igualest = 1 === "1"
+console.log(mayor, menor, dif, igual, difest, igualest)
+
+//Operadores lógicos
+
+let and = (5 > 3) && (10 == "10")
+let or = (5 != 5) || (10 === 0)
+let not  = !(10 < 5)
+let logico1 = (true && true) || false
+console.log(and, or, not, logico1)
+
+
 
