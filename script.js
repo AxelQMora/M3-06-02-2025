@@ -61,4 +61,26 @@ let logico1 = (true && true) || false
 console.log(and, or, not, logico1)
 
 
+//ESTRUCTURAS DE CONTROL
+
+/*
+    if
+    -Permite ejecutar código si se cumple una condición
+    - Puede usarse con operadores lógicos y de comparación
+*/
+
+let edad = 22
+let tieneINE = false
+
+if (edad >= 18 && tieneINE){
+    console.log("Puedes votar :)")
+}
+    else { console.log("Chamaco miado");}
+
+if (edad < 18){
+    console.log("Espera, aún no eres mayor de edad");
+} else if(edad >= 18){
+    console.log("Tramite su INE");
+}
+
 
